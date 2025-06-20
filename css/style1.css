@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    box-sizing: border-box;
+} 
+
+header,footer{
+    background-color: black; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.class{
+    background-color: #f9f9f9;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgb(208, 203, 203);
+}
+
+.class:hover{
+    transform: translateY(-10px);
+    transition: transform .3s ease;
+    transform: scale(1.1,1.1);
+}
+
+h3{
+    color: blue;
+}
+
+header, h2{
+    font-size: small;
+}
+
+button{
+    color: white;
+    background-color: blue;
+}
+
+.class button{
+    padding: 20px 40px;
+    background-color: rgb(3, 3, 98);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
